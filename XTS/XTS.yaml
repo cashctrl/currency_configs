@@ -1,10 +1,11 @@
 XTS:
     description: "Test Currency"
-    XTS_1000:
-        description: "Ten Test Note"
-        unitValue: 10
-        setCardinality: 1
-    XTS_10:
-        description: "Ten Test Coin"
-        unitValue: 0.1
-        setCardinality: 50
+    denominations:
+        - XTS_1000:
+            description: "Ten Test Note"
+            unitValue: 10
+            setCardinality: 1
+        - XTS_10:
+            description: "Ten Test Coin"
+            unitValue: 0.1
+            setCardinality: 50

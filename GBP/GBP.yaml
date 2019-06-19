@@ -1,0 +1,43 @@
+GBP:
+    description: "Pounds Sterling"
+    denominations:
+        - GBP_5:
+            description: "Five Pence Coins"
+            unitValue: 0.05
+            setCardinality: 100
+        - GBP_10:
+            description: "Ten Pence Coins"
+            unitValue: 0.1
+            setCardinality: 50
+        - GBP_20:
+            description: "Twenty Pence Coins"
+            unitValue: 0.2
+            setCardinality: 50
+        - GBP_50:
+            description: "Fifty Pence Coins"
+            unitValue: 0.5
+            setCardinality: 20
+        - GBP_100:
+            description: "One Pound Coins"
+            unitValue: 1.0
+            setCardinality: 20
+        - GBP_200:
+            description: "Two Pound Coins"
+            unitValue: 2.0
+            setCardinality: 10
+        - GBP_500:
+            description: "Five Pound Notes"
+            unitValue: 5.0
+            setCardinality: 1
+        - GBP_1000:
+            description: "Ten Pound Notes"
+            unitValue: 10.0
+            setCardinality: 1
+        - GBP_2000:
+            description: "Twenty Pound Notes"
+            unitValue: 20.0
+            setCardinality: 1
+        - GBP_5000:
+            description: "Fifty Pound Notes"
+            unitValue: 50.0
+            setCardinality: 1
